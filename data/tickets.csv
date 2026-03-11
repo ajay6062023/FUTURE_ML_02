@@ -1,0 +1,11 @@
+ticket,category,priority
+"I was charged twice for my order",Billing,High
+"Unable to login to my account",Account,High
+"My payment failed but money deducted",Billing,High
+"How do I change my password",General Query,Low
+"Website is not loading properly",Technical Issue,Medium
+"I want to update my email address",Account,Medium
+"My app keeps crashing",Technical Issue,High
+"Where can I see my invoices",Billing,Low
+"How do I reset my account password",Account,Medium
+"Server error when uploading file",Technical Issue,High

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Support Ticket Classifier</title>
+
+<style>
+body{
+font-family:Arial;
+background:#f4f6f8;
+text-align:center;
+padding:40px;
+}
+
+textarea{
+width:400px;
+height:120px;
+}
+
+button{
+padding:10px 20px;
+background:#4CAF50;
+color:white;
+border:none;
+}
+
+.result{
+margin-top:20px;
+font-size:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Customer Support Ticket Classifier</h1>
+
+<form method="POST">
+
+<textarea name="ticket" placeholder="Enter support ticket..."></textarea>
+
+<br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+{% if category %}
+
+<div class="result">
+
+<p><b>Category:</b> {{category}}</p>
+<p><b>Priority:</b> {{priority}}</p>
+
+</div>
+
+{% endif %}
+
+</body>
+</html>
